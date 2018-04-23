@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1524179206 source:d:\seba4\clase9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1524179356 d:\seba4\clase9\lib.h
+	<stdio.h>
+	<stdlib.h>
+
+1524330895 source:c:\espaciodetrabajo\clase9-estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+
+1524443599 c:\espaciodetrabajo\clase9-estructuras\lib.h
+	<stdio.h>
+	<stdlib.h>
+
+1524449470 source:c:\espaciodetrabajo\clase9-estructuras\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+
