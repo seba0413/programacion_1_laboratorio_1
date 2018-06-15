@@ -1,0 +1,41 @@
+int al_indexOfElement(ArrayList*this, void* item, int (*fnComparar)(void* e0, void* e1))
+{
+	int i;
+	int ret =-1;
+	for(i = 0; i< this->size; i++)
+	{
+		//if(this->pElements[i] == item)
+		if(fnComparar(this->pElements[i], item)==0)
+			ret = i;
+	}
+	return ret;
+    
+}
+
+
+//esto es lo que va en el main
+//antes de hacer esto tengo que sacar los duplicados
+int i;
+for(i=0; al_len(blackList); i++)
+{
+	Dest* d = al_get(blackList, i);
+
+	int index = al_indexOfElement(destinatarios, d, comparoDest);
+
+	al_remove(destinatarios, index);
+}
+
+
+int comparoDest(void* el0, void el1)
+{
+	char mail0[128];
+	char mail1[128];
+	
+	Dest* el0Dest = (Dest*) el0;
+	Dest* el0Dest = (Dest*) el0;
+
+	dest_getEmail(el0Dest, mail0);
+	dest_getEmail(el0Dest, mail1);
+
+	return strcmp(mail0, mail1);
+}
