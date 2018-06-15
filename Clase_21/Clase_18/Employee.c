@@ -140,7 +140,7 @@ void employee_print(Employee* this)
     {
         employee_getName(this,name);
         employee_getEmail(this,email);
-        fprintf(stdout,"\nId: %d - Nombre: %s - Email: %s", name,email);
+        fprintf(stdout,"\nNombre: %s - Email: %s", name,email);
     }
 
 }

@@ -22,7 +22,7 @@ int parserEmployee(char* fileName, ArrayList* pArrayListEmployee)
             {
                 this = employee_new();
                 employee_setName(this, name);
-                employee_setLastName(this, email);
+                employee_setEmail(this, email);
                 al_add(pArrayListEmployee, this);
             }
         }while(!feof(fp));

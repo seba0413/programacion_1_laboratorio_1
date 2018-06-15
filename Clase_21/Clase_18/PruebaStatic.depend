@@ -71,26 +71,33 @@
 	"ArrayList.h"
 	"Employee.h"
 
-1529017264 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/Employee.c
+1529023571 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/Employee.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 	"Employee.h"
 
-1527717734 /home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/ArrayList.h
+1529024128 /home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/ArrayList.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
 
-1529017224 /home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/Employee.h
+1529023527 /home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/Employee.h
 
-1529017934 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/main.c
+1529024332 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"parser.h"
+
+1529023556 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Employee.h"
 
-1529017199 source:/home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/parser.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"Employee.h"
+1529024316 /home/alumno/Descargas/programacion_1_laboratorio_1-master/Clase_18/parser.h
 

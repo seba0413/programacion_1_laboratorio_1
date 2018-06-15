@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "Employee.h"
+
+int comparoDest(void* el0, void* el1);
+
 /*
     utest example : Unit test examples.
     Copyright (C) <2016>  <Mauricio Davila>
@@ -203,6 +210,34 @@ int al_containsAll(ArrayList* pList,ArrayList* pList2);
  */
 int al_sort(ArrayList* pList, int (*pFunc)(void* ,void*), int order);
 
+int al_indexOfElement(ArrayList*this, void* item, int (*fnComparar)(void* e0, void* e1))
+{
+	int i;
+	int ret =-1;
+	for(i = 0; i< this->size; i++)
+	{
+		//if(this->pElements[i] == item)
+		if(fnComparar(this->pElements[i], item)==0)
+			ret = i;
+	}
+	return ret;
+
+}
+
+int comparoDest(void* el0, void* el1)
+{
+	char mail0[128];
+	char mail1[128];
+
+	Employee* el0Dest = (Employee*) el0;
+	Employee* el1Dest = (Employee*) el1;
+
+	employee_getEmail(el0Dest, mail0);
+	employee_getEmail(el1Dest, mail1);
+
+	return strcmp(mail0, mail1);
+}
+
 
 
 /** \brief Increment the number of elements in pList in AL_INCREMENT elements.
@@ -229,6 +264,8 @@ int expand(ArrayList* pList,int index);
  *                  - ( 0) if Ok
  */
 int contract(ArrayList* pList,int index);
+
+
 
 
 // Private function

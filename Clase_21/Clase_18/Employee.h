@@ -28,14 +28,10 @@ struct
 Employee* employee_new(void);
 Employee* employee_newParametros(char* name, char* email);
 void employee_delete(Employee* this);
-int employee_setId(Employee* this, int id);
-int employee_getId(Employee* this, int* id);
-int employee_getIsEmpty(Employee* this, int* isEmpty);
-int employee_setIsEmpty(Employee* this, int isEmpty);
 int employee_setName(Employee* this, char* name);
 int employee_getName(Employee* this, char* name);
-int employee_setLastName(Employee* this, char* lastName);
-int employee_getLastName(Employee* this, char* lastName);
+int employee_setEmail(Employee* this, char* email);
+int employee_getEmail(Employee* this, char* email);
 int employee_compare(Employee* pEmployeeA,Employee* pEmployeeB);
 void employee_print(Employee* this);
 int employee_compareName(Employee* pEmployeeA,Employee* pEmployeeB);
