@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1530180976 source:d:\pasquini_sebastian\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1530154778 d:\pasquini_sebastian\arraylist.h
+
+1531449543 source:d:\pasquini_sebastian\deposito.c
+	"deposito.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1531442800 d:\pasquini_sebastian\deposito.h
+
+1531453522 source:d:\pasquini_sebastian\parser.c
+	"ArrayList.h"
+	"deposito.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1524691840 source:d:\pasquini_sebastian\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1524691840 d:\pasquini_sebastian\utn.h
+
+1531453264 source:d:\pasquini_sebastian\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"deposito.h"
+	"ArrayList.h"
+	"Parser.h"
+	"utn.h"
+	"informe.h"
+	"funciones.h"
+
+1531443800 d:\pasquini_sebastian\parser.h
+
+1531450569 source:d:\pasquini_sebastian\informe.c
+	"ArrayList.h"
+	"deposito.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1531450643 d:\pasquini_sebastian\informe.h
+
+1531452586 source:d:\pasquini_sebastian\funciones.c
+	"ArrayList.h"
+	"deposito.h"
+	"utn.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1531451568 d:\pasquini_sebastian\funciones.h
+
